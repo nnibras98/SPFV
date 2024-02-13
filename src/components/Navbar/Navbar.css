@@ -1,0 +1,50 @@
+.new-navbar {
+    background-color: #576a7d; /* Dark background for sleek look */
+    color: #ecf0f1; /* Light text color for contrast */
+    padding: 10px 20px; /* Spacing around navbar */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .nav-logo a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .nav-items {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-button {
+    background-color: #34495e; /* Slightly lighter than navbar for distinction */
+    color: #ecf0f1;
+    border: none;
+    padding: 8px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-button:hover, .nav-button.active {
+    background-color: #2980b9; /* Highlight color on hover/active */
+  }
+  
+  .custom-select {
+    background-color: #34495e;
+    color: #ecf0f1;
+    border: 1px solid #34495e;
+    padding: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
